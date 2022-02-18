@@ -1,6 +1,7 @@
 # Autoscout24
 
 **Data context: The future of electric cars and the downfall of gas cars**
+
 Scope: Electric and gas cars in The Netherlands (with the abilaty to progress into The Benelux)
 
 _Why Autscout?_
