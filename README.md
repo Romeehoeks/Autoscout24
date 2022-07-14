@@ -13,6 +13,12 @@ Autoscout24 is very organized and brings together consumers and dealers. We have
 
 The purpose of our database is to provide consumers with information so that they can compare electric cars with gasoline cars. This can be useful if a consumer for example is in doubt about buying an electric car or a gasoline car. Within the database, it is possible to filter on the following variables: price, km, year, PK, brand, type, dealership, and attributes. Which makes it possible to make for example comparisons between the value/ km ratio of electric and gasoline cars.
 
+
+## Running instructions
 To run the Scraper, Jupyter Notebook and Python is required:
 
 We have used BeautifulSoup to scrape raw text and features from the Autoscout24 website. All the infor-mation that was needed for making an interesting and complete database was directly observable on the website. There was not any additional data required. To gather all the URLs, we have for-looped through multiple filters (the reason why is explained in 2.2). We then requested each URL with BeautifulSoup and used the soup.find().text to locate and withdraw the information. This process was completed within the listings page and for each detailed product page. At last, we used a combination of the CSV package and pandas package to save all the information into a file. To make the web scraper Python code was used. To set up this web scraper we used the software program Jupyter Notebook. This program makes writing Py-thon code more accessible and helps with visualizing and controlling the process. The website of Au-toscout24 has an API available, but this is only for sellers and did not give us enough access and infor-mation to complete the database. Therefore, web scraping was the best option. We choose for Beautiful-Soup because of the ease to use and their comprehen-sive documentation. Also other packages  were used such as, requests, time, datetime, csv, json and pan-das to finalize the Python code.  
+
+
+## About 
+This project is conducted by Team 3, consisting of 5 ambitious Marketing Analytics students; Henk-Jan Klijsen (2085005), Marije  Kok (2002073), Max van der Meulen (2086281), Romée Hoeks (2072716) and Thomas Hemrica (2086422) for the course Data Collection. 
